@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 converted_input = input_to_index(user_input)
-user_input = board to_i
+user_input = 5 + 1
 # code your input_to_index and move method here!
 def update_array_at_with(array, index, value)
   array[index] = value
