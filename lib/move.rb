@@ -8,11 +8,9 @@ end
 
 
 # code your input_to_index and move method here!
-def input_to_index(input)
-input.to_i - 1
+def input_to_index(user_input)
+user_input.to_i - 1
 end
-
-index = input_to_index(input)
 
 def move(board, index, user_marker = "X")
   board[index.to.i] = user_marker
