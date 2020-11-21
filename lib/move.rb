@@ -13,7 +13,7 @@ string.to_i - 1
 end
 
 def move(board, index, user_marker = "X")
-  board[index.to.i]
+  board[index.to.i] = user_marker
 end
 
 def update_array_at_with(array, index, value)
