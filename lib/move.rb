@@ -11,4 +11,3 @@ input_to_index
 def update_array_at_with(array, index, value)
   array[index] = value
 end
-
